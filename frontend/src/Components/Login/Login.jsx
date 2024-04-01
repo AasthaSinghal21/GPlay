@@ -14,6 +14,7 @@ const Login = () => {
     }
 
   return (
+    <div className='body_login'>
     <div className='wrapper'>
         <form onSubmit={handleSubmit}>
             <h1>Login</h1>
@@ -36,6 +37,7 @@ const Login = () => {
                 <p>Don't have an account? <a href="">Register</a></p>
             </div>
         </form>
+    </div>
     </div>
   )
 }
