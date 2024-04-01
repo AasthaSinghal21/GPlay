@@ -14,7 +14,7 @@ function App() {
     // </div>
     <>
     {/* <Profile/> */}
-    <Login/>
+<Profile/>
     </>
   );
 }

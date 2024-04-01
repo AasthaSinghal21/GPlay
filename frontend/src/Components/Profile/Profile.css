@@ -1,4 +1,44 @@
 .profilepage{
     background-color: white;
-    background-image: none;
+}
+.profilenamesection{
+    height:20vh;
+    width:100vw;
+    background-color: rgb(3, 109, 3);
+    position: absolute;
+    left:0;
+    top:0;
+}
+.profilepic{
+    width:30vw;
+    height:30vw;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top:10vh;
+    left:2.5vw;
+}
+.upcominggames{
+    width:95vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0rem 0rem 1rem rgb(0,0,0,0.5);
+    height:10vh;
+    border-radius: 5px;
+    margin-top: 2rem;
+
+}
+.prevgames{
+    width:95vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 0rem 0rem 1rem rgb(0,0,0,0.5);
+    height:10vh;
+    border-radius: 5px;
+    margin-top:2rem;
+}
+.graph{
+    margin-top:8rem;
 }
