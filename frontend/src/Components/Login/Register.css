@@ -1,0 +1,138 @@
+.body_register{
+    background: url(../Assests/loginbg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.wrapper_reg {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+   position: absolute;
+   left: 37%;
+   top: 11%;
+}
+
+.wrapper_reg h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper_reg .input-box_reg {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 17px 0;
+}
+
+.input-box_reg input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    outline: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box_reg input::placeholder {
+    color: #fff;
+}
+
+.input-box_reg .icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+
+.wrapper_reg .forgot_reg {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -2px 0 14px;
+}
+
+.forgot_reg label input{
+    accent-color: #fff;
+    margin-right: 4px;
+}
+
+.forgot_reg a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.forgot_reg a:hover {
+    text-decoration: underline;
+}
+
+.wrapper_reg button {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.wrapper_reg .login {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.login p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login p a:hover {
+    text-decoration: underline;
+}
+@media(max-width:1023px)
+{
+    .body_register{
+        
+        background: url(../Assests/stadium.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        min-width: 100vw;
+    }
+    .wrapper_reg{
+        width:90vw;
+        align-items: center;
+        background: transparent;
+        border: 2px solid rgba(255, 255, 255, .2);
+        backdrop-filter: blur(20px);
+        box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+        color: white;
+        border-radius: 10px;
+        padding: 25px 35px;
+        position: absolute;
+        left:5vw;
+        top:12%;
+    }
+    .wrapper_reg .input-box_reg {
+        position: relative;
+        width: 100%;
+        height: 45px;
+        margin: 15px 0;
+    }
+}
