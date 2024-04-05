@@ -1,0 +1,35 @@
+.game_flex{
+    width:100vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.homeheader{
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+.venuesnear{
+    display: flex;
+    width:100vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+}
+.createGame{
+    width:95vw;
+    background-color: green;
+    height:4vh;
+    color:white;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-top: 0.2rem;
+    border-radius:2vw;
+    margin-bottom: 1.5rem;
+}
+.direction_arrow{
+    margin-left: 38vw;
+}

@@ -3,6 +3,7 @@ import './App.css';
 import Login from './Components/Login/Login';
 import Register from './Components/Login/Register';
 import Profile from './Components/Profile/Profile';
+import Home from './Components/Home/Home';
 import Book from './Components/Booking/Book';
 
 function App() {
@@ -18,10 +19,11 @@ function App() {
     //   currentForm === "Login" ? <Login onFormSwitch={toggleForm} /> : <Register onFormSwitch={toggleForm} />
     //   }
     // </div>
-    // <>
-    // <Profile/>
-    // </>
-    <><Book/></>
+    <>
+    {/* <Profile/> */}
+    <Home/>
+
+    </>
   );
 }
 
