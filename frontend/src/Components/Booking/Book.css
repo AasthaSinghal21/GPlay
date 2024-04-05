@@ -1,0 +1,82 @@
+.booking{
+    background: url(../Assests/b.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.wrapper_booking {
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+   position: absolute;
+   left: 37%;
+   top: 21%;
+}
+
+.wrapper_booking h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper_booking .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 35px 0;
+}
+
+.input-box label {
+    margin-left: 11px;
+}
+
+.wrapper_booking button {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+@media (max-width:1023px){
+    .booking{
+        
+        background: url(../Assests/book.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        min-width: 100vw;
+    }
+
+    .wrapper_booking {
+        width:90vw;
+        align-items: center;
+        background: transparent;
+        border: 2px solid rgba(255, 255, 255, .2);
+        backdrop-filter: blur(20px);
+        box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+        color: white;
+        border-radius: 10px;
+        padding: 30px 40px;
+        position: absolute;
+        left:5vw;
+        top:22%;
+    }
+    .wrapper .input-box {
+        position: relative;
+        width: 100%;
+        height: 45px;
+        margin: 25px 0;
+    }
+}
