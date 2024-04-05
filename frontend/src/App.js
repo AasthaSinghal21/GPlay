@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import VenueList from './Components/Venue/VenueList';
 
 
+import Home from './Components/Home/Home';
 
 function App() {
   // const [currentForm, setCurrentForm] = useState('Login');
@@ -19,15 +20,7 @@ function App() {
     // </div>
     <>
     {/* <Profile/> */}
-    <VenueList />
-    <Router>
-    <Routes>
-      <Route exact path="/cricket" element = {<VenueList cricket = {packageInfo.cricket}/>}></Route>
-      <Route exact path="/footbal" element = {<VenueList cricket = {packageInfo.football}/>}></Route>
-      <Route exact path="/badminton" element = {<VenueList cricket = {packageInfo.badminton}/>}></Route>
-    </Routes>
-    </Router>
-    
+<Profile/>
     </>
 
   );

@@ -1,0 +1,42 @@
+.game_box{
+    width:45vw;
+    height:40vw;
+    border-radius: 5px;
+    box-shadow: 0rem 0rem 1rem rgb(0,0,0.1);
+    margin: 0.5rem;
+}
+.image_game{
+    width:45vw;
+    height:20vw;
+}
+.game_box h4{
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.location{
+    font-size: 0.75rem;
+    margin-left: 1rem;
+ 
+}
+.requirement{
+    font-size: 0.75rem;
+    margin-left: 1rem;
+}
+.date{
+    font-size: 0.75rem;
+    margin-left: 1rem;
+}
+.join_button{
+    margin-left: 1rem;
+    width:17.5vw;
+    margin-top: 0.5rem;
+    border:none;
+    background-color: green;
+    color:white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.game_icon{
+    font-size: 0.75rem;
+}
