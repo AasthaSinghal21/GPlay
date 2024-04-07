@@ -3,7 +3,7 @@ import './Register.css';
 import { FaUser } from "react-icons/fa";
 import { RiLockPasswordFill, RiMessageFill, RiBasketballFill  } from "react-icons/ri";
 import { MdDriveFileRenameOutline } from "react-icons/md";
-
+import { Link } from 'react-router-dom';
 const Register = (props) => {
 
     const [username, setUsername] = useState('');
@@ -53,7 +53,8 @@ const Register = (props) => {
             <button type="submit">Register</button>
 
             <div className="login">
-                <p>Already have an account? <a href="/" onClick={() => props.onFormSwitch('Login')}>Login</a></p>
+                {/* <p>Already have an account? <a href="/" onClick={() => props.onFormSwitch('Login')}>Login</a></p> */}
+                <p>Already have an account?<Link to="/">Login</Link></p>
             </div>
         </form>
     </div>

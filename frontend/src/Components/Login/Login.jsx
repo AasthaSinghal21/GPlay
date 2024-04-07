@@ -35,7 +35,8 @@ const Login = (props) => {
             <Link className="login-button" to="/home">Login</Link>
 
             <div className="register">
-                <p>Don't have an account? <a href="/reg" onClick={() => props.onFormSwitch('Register')}>Register</a></p>
+                {/* <p>Don't have an account? <a href="/reg" onClick={() => props.onFormSwitch('Register')}>Register</a></p> */}
+                <p>Don't have an account? <Link to="/reg">Register</Link></p> 
             </div>
         </form>
     </div>
