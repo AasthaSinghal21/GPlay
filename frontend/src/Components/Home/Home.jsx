@@ -27,7 +27,7 @@ return(
 <Games image={swimming} gameName="Swimathon" location="Rajender Nagar" requirement="1" datetime="10th April-12th April" />
 <Games image={badminton} gameName="Doubles Tournament" location="Sports Complex, CP" requirement="2" datetime="13th April-15th April" />
 </div>
-<button className="view">View More</button>
+{/* <button className="view">View More</button> */}
 <BottomNav/>
 </>)
 }

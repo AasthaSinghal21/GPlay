@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './Book.css';
 import Navbar from '../Navbar/Navbar';
+import BottomNav from '../BottomNav/BottomNav';
 
 const Book = () => {
 
@@ -34,6 +35,7 @@ const Book = () => {
         </form>
     </div> 
     </div>
+    <BottomNav/>
     </>
   )
 }
