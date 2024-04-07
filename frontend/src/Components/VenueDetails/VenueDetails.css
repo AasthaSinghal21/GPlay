@@ -1,0 +1,132 @@
+.venuedetails{
+    margin-top: 0%;
+}
+
+.venuedetails > h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 0.4rem;
+    font-size: 25px;
+}
+
+.clock{
+    display: flex;
+    margin: 0.2rem;
+    margin-bottom: 0rem;
+}
+
+.add{
+    display: flex;
+    margin: 0.2rem;
+    margin-top: 0rem;
+}
+
+.time{
+    font-size: 5vw;
+    margin-left: 0.4rem;
+}
+
+.address{
+    font-size: 4vw;
+    margin-left: 0.4rem;
+}
+
+.upcoming{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+    width: 90vw;
+    margin: auto;
+    padding: 2px;
+    border-width:1.5px;
+    border-style:solid;
+    border-color:brgb(97, 96, 96);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.first_section{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    margin: 0.2rem;
+    margin-top: 1.5rem;
+}
+
+.headings{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 0.4rem;
+}
+
+.book-button{
+    background-color: rgb(39, 151, 19);
+    width: 30vw;
+    height: 7vw;
+    color: white;
+    box-shadow: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
+.condition{
+    font-size: 11px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(63, 63, 63);
+    margin: auto;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(197, 193, 193);
+    border-radius: 4px;
+    width: 90vw;
+    margin-top: 0.6rem;
+    margin-bottom: 0.8rem;
+}
+
+.schedule{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    font-size: 14px;
+    margin-left: 0.4rem;
+}
+
+.days{
+    margin-left: 0.4rem;
+    margin-bottom: 10px;
+}
+
+.amaenities{
+    margin:5px;
+    width: 95vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.fac{
+    padding: 5px;
+    font-size: 13px;
+    margin: 3px;
+    background-color: aliceblue;
+    color: black;
+    /* display:flexbox;
+    flex-wrap: wrap;
+    grid-template-columns: 2fr 2fr 3fr; */
+    width: 28vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.water{
+    padding: 5px;
+    font-size: 13px;
+    margin: 3px;
+    background-color: aliceblue;
+    color: black;
+    width: 93vw;
+    text-align: center;
+}

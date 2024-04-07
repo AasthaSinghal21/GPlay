@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import './Book.css';
+import Navbar from '../Navbar/Navbar';
 
 const Book = () => {
 
@@ -9,6 +10,8 @@ const Book = () => {
     }
 
   return (
+    <>
+    <Navbar/>
     <div className='booking'>
     <div className='wrapper_booking'>
         <form onSubmit={handleSubmit}>
@@ -31,6 +34,7 @@ const Book = () => {
         </form>
     </div> 
     </div>
+    </>
   )
 }
 

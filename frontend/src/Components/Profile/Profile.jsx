@@ -2,6 +2,9 @@ import "./Profile.css";
 import { LineChart } from '@mui/x-charts/LineChart';
 import avatar from "../Assests/avatar.jpg";
 import { MdEdit } from "react-icons/md";
+import Navbar from '../Navbar/Navbar';
+import BottomNav from '../BottomNav/BottomNav';
+
 const uData = [10,12,8,9,15];
 const pData = [5,2,3,1,4];
 const xLabels = [
@@ -15,6 +18,7 @@ const Profile=()=>{
 
     return(
         <>
+        <Navbar/>
         <div className="profilepage">
             <div className="profilenamesection">
                 <span className="player_id">numerator07</span>
@@ -43,6 +47,7 @@ const Profile=()=>{
                 
             </div>
         </div>
+        <BottomNav/>
         </>
     )
 
