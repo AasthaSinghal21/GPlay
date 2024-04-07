@@ -23,6 +23,7 @@
     /* color: #2c2c2f; */
     font-size: 36px;
     text-align: center;
+    color:black;
 }
 
 .wrapper .input-box {
@@ -80,7 +81,6 @@
 }
 
 .login-button {
-    width:70vw;
     height: 30px;
     background: #fff;
     border: none;
@@ -93,11 +93,15 @@
     font-weight: 600;
     font-style: normal;
     text-decoration: none;
-    padding: 7px;
+    padding-left:25vw;
+    padding-top: 0.4rem;
+    padding-right: 25vw;
+    padding-bottom: 0.4rem;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: 80px;
+    margin-left: 10px;
+    background-color: rgb(114, 177, 137);;
 }
 
 .wrapper .register {

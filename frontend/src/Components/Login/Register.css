@@ -22,6 +22,7 @@
 .wrapper_reg h1 {
     font-size: 36px;
     text-align: center;
+    color:black
 }
 
 .wrapper_reg .input-box_reg {
@@ -79,7 +80,7 @@
 .wrapper_reg button {
     width: 100%;
     height: 45px;
-    background: #fff;
+    background:rgb(114, 177, 137);;
     border: none;
     outline: none;
     border-radius: 40px;

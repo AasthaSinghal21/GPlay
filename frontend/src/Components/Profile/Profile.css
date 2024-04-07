@@ -5,7 +5,7 @@
 .profilenamesection{
     height:20vh;
     width:100vw;
-    background-color: rgb(3, 109, 3);
+    background-color: rgb(114, 177, 137);
     position: absolute;
     left:0;
     top:0;
@@ -28,32 +28,35 @@
     width:95vw;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(3, 109, 3);
+    background-color: rgb(114, 177, 137);
     box-shadow: 0rem 0rem 1rem rgb(0,0,0,0.5);
     height:8vh;
     border-radius: 5px;
-    margin-top: 2rem;
+    margin-top: 1.2rem;
     text-align: center;
     font-size: 1.2rem;
 padding-top:2vh;
-color:white
+color:black;
+font-weight: 500;
 }
 .prevgames{
     width:95vw;
     margin-left: auto;
     margin-right: auto;
-    background-color:rgb(3, 109, 3);
+    background-color:rgb(114, 177, 137);
     box-shadow: 0rem 0rem 1rem rgb(0,0,0,0.5);
     height:8vh;
     border-radius: 5px;
-    margin-top:2rem;
+    margin-top:1.2rem;
     text-align: center;
     font-size: 1.2rem;
     padding-top:2vh;
-    color:white;
+    color:black;
+    font-weight: 500;
+
 }
 .graph{
-    margin-top:8rem;
+    margin-top:5rem;
     background-color:aliceblue;
     width:90vw;
     margin-left: auto;
@@ -63,7 +66,7 @@ color:white
     position: absolute;
     top:15vh;
     left:35vw;
-    color:white;
+    color:black;
     font-weight: bold;
     font-size: 1.2rem;
 }
@@ -72,5 +75,5 @@ color:white
     top:15vh;
     right:5vw;
     font-size: 1.2rem;
-    color:white
+    color:black;
 }

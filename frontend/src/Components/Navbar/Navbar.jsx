@@ -21,9 +21,9 @@ const Navbar = () => {
     <nav className={active ? "activenav" : "nav"}>
       <div className='mylocation'>{loc}Kashmere Gate</div>
       <div className={active ? "activerightsec" : "rightsec"}>
-        <Link>{chat}</Link>
-        <Link>{notification}</Link>
-        <Link to="/profile">{profile}</Link>
+        <Link className='iconnave'>{chat}</Link>
+        <Link className='iconnave'>{notification}</Link>
+        <Link className='iconnave' to="/profile">{profile}</Link>
       </div>
       
     </nav>

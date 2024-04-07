@@ -4,6 +4,8 @@
     display: grid;
     grid-template-columns: 5fr 2fr;
     width: 100%;
+    padding-bottom:0.5rem;
+    padding-right: 0.3rem;
 }
 
 .nav{
@@ -12,6 +14,7 @@
     grid-template-columns: 5fr 2fr;
     width: 100%;
     margin-right: 0%;
+    padding-bottom:0.5rem;
 }
 
 .rightsec{
@@ -27,4 +30,7 @@
     text-align: right;
     align-items: right;
     margin-right: 0px;
+}
+.iconnave{
+    margin-left: 0.7rem;
 }
