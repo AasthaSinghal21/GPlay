@@ -1,28 +1,75 @@
 .venue_box{
-    width:45vw;
-    height:40vw;
+    width: 90vw;
+    height:70vw;
     border-radius: 5px;
-    box-shadow: 0rem 0rem 1rem rgb(0,0,0.1);
-    margin: 0.5rem;
+    /* box-shadow: 0rem 0rem 1rem rgb(0,0,0.1); */
+    /* margin: 2rem; */
+    margin: 1rem;
+    background-color: rgb(227, 231, 227);
 }
+
+.image_game{
+    background-size: fit;
+    width:88vw;
+    height: 40vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: 0.2rem;
+ }
+
+.firstline{
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+
+}
+
 .venue_box h4{
-    text-align: center;
+    text-align: left;
     font-size: 0.9rem;
+    padding: 0.4rem;
+    font-size: medium;
 }
+
+.rating{
+    display: flex;
+    align-items: center;
+    padding: 0.1rem;
+    /* background-color: azure; */
+    color: rgb(10, 99, 10);
+    font-weight: 300;
+    margin: 0.5rem;
+    height: 0.5rem;
+}
+
+.location{
+    display: flex;
+    margin: 0.2rem;
+    margin-bottom: 0.4rem;
+}
+
 .venue_location{
     font-size: 0.75rem;
-    margin-left: 0.5rem;
- 
 }
-.venue_date{
-    font-size: 0.75rem;
-    margin-left: 0.5rem;  
+
+.lastline{
+    display: grid;
+    grid-template-columns: 6fr 1fr;
 }
+
+.cost{
+    font-size: medium;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0.2rem;
+}
+
 .venue_button{
-    margin-left: 2.5vw;
-    width:40vw;
-    margin-top: 0.5rem;
-    background-color: green;
-    color:white;
+    /* width:2.5vw; */
     font-weight: 400;
+    font-size: larger;
+    border:none;
+    background-color: rgb(227, 231, 227) ;
 }
+
+
+

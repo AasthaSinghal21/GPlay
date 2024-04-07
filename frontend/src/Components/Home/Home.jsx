@@ -3,25 +3,26 @@ import "./Home.css";
 import swimming from "../Assests/badminton1.jpeg";
 import badminton from "../Assests/badminton2.avif"
 import VenuesNear from "./VenuesNear";
-import cric1 from "../Assests/stadium1.webp";
-import cric2 from "../Assests/stadium2.webp";
+import cric1 from "../Assests/img3.jpg";
+import cric2 from "../Assests/img1.jpg";
+
 
 const Home=()=>{
 return(
 <>
-<div className="createGame">Create a new game <span className="direction_arrow">{">"}</span></div>
-<h3 class="homeheader">Venues Near You   {">"}</h3>
+<div className="createGame"><b>CREATE GAME</b></div>
+<h3 class="homeheader">Venues Near You</h3>
 <div class="venuesnear">
-<VenuesNear image={cric1} groundName="Khaitan Complex" location="Rajender Nagar" time="9am-5pm" />
-<VenuesNear image={cric2} groundName="Khaitan Complex" location="Rajender Nagar" time="9am-11pm"/>
+<VenuesNear image={cric1} groundName="Crickage Cricket Ground" location="Paarag Vihar, Press Colony, Mayapuri" rating="4.2" cost="₹ 1,200 onwards"/>
+<VenuesNear image={cric2} groundName="Dugout Cricket Ground" location="Rajender Nagar" rating="4.1" cost="₹ 900 onwards"/>
 </div>
-<h3 class="homeheader">Games Near You    {">"}</h3>
+<button className="view">View More</button>
+<h3 class="homeheader">Games Near You</h3>
 <div class="game_flex">
-<Games image={swimming} groundName="Khaitan Complex" location="Rajender Nagar" requirement="4" datetime="10th April" />
-<Games image={swimming} groundName="Khaitan Complex" location="Rajender Nagar" requirement="4" datetime="10th April" />
-<Games image={badminton} groundName="Khaitan Complex" location="Rajender Nagar" requirement="4" datetime="10th April" />
-<Games image={badminton} groundName="Khaitan Complex" location="Rajender Nagar" requirement="4" datetime="10th April" />
+<Games image={swimming} gameName="Swimathon" location="Rajender Nagar" requirement="1" datetime="10th April-12th April" />
+<Games image={badminton} gameName="Doubles Tournament" location="Sports Complex, CP" requirement="2" datetime="13th April-15th April" />
 </div>
+<button className="view">View More</button>
 </>)
 }
 export default Home;

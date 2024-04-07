@@ -1,0 +1,27 @@
+.venue-heading{
+    margin: 5px;
+    padding: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    text-align: center;
+
+}
+
+.create-game{
+    cursor: pointer;
+    width: 9vw;
+    height: 3vw;
+    border: 5px;
+}
+
+.amaenities{
+   display:flex;
+   margin: 10px;
+   color: red;
+   background-color: yellow;
+}
+.amaenities > div{
+    margin: 5px;
+    background-color: grey;
+    padding: 10px;
+}
