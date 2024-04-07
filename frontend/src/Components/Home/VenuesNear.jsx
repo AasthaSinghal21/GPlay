@@ -13,7 +13,7 @@ const VenuesNear=(props)=>{
             <img src={props.image} className="image_game"/>
             <div className="firstline">
               <h4>{props.groundName}</h4>
-              <p className="rating">{star}{props.rating}</p>
+              <p className="rating">{star}<b>{props.rating}</b></p>
             </div>
             <div className="location">
               {loc}  

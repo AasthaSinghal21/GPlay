@@ -1,6 +1,6 @@
 .venue_box{
     width: 90vw;
-    height:70vw;
+    height:77vw;
     border-radius: 5px;
     /* box-shadow: 0rem 0rem 1rem rgb(0,0,0.1); */
     /* margin: 2rem; */
@@ -40,12 +40,12 @@
     font-weight: 300;
     margin: 0.5rem;
     height: 0.5rem;
+    font-weight: 300;
 }
 
 .location{
     display: flex;
     margin: 0.2rem;
-    margin-bottom: 0.4rem;
 }
 
 .venue_location{

@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import './Login.css';
 import { FaUser } from "react-icons/fa";
 import { RiLockPasswordFill } from "react-icons/ri";
+import {Link} from "react-router-dom"
 
 const Login = (props) => {
-
     const [username, setUsername] = useState('');
     const [pass, setPass] = useState('');
 
@@ -31,10 +31,11 @@ const Login = (props) => {
                 <a href="#">Forgot Password?</a>
             </div>
 
-            <button type="submit">Login</button>
+            {/* <button type="submit" onClick={() => navigate('/home')}>Login</button> */}
+            <Link className="login-button" to="/home">Login</Link>
 
             <div className="register">
-                <p>Don't have an account? <a href="#" onClick={() => props.onFormSwitch('Register')}>Register</a></p>
+                <p>Don't have an account? <a href="/reg" onClick={() => props.onFormSwitch('Register')}>Register</a></p>
             </div>
         </form>
     </div>

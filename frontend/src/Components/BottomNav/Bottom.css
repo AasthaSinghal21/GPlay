@@ -1,0 +1,21 @@
+/* .bottomnav{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.navbar {
+    border-bottom: solid 1px #EBEBEB;
+  }
+  .bottom-tab-nav {
+    border-top: solid 1px #EBEBEB;
+  }
+  .nav-link,
+  .bottom-nav-link {
+    color: #55575b;
+  }
+  .bottom-nav-link.active {
+    color: #922c88;
+  }
+  .bottom-tab-label {
+    font-size: 12px;
+  }

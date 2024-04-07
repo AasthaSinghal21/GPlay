@@ -1,0 +1,30 @@
+.activenav{
+    position: fixed;
+    background-color: rgb(114, 177, 137);
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    width: 100%;
+}
+
+.nav{
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    width: 100%;
+    margin-right: 0%;
+}
+
+.rightsec{
+    justify-content: right;
+    text-align: right;
+    align-items: right;
+    margin-right: 0px;
+    margin-left: 120px;
+}
+
+.activerightsec{
+    justify-content: right;
+    text-align: right;
+    align-items: right;
+    margin-right: 0px;
+}

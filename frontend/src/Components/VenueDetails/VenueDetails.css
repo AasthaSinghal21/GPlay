@@ -58,13 +58,15 @@
     margin-left: 0.4rem;
 }
 
-.first_section > button{
+.book-button{
     background-color: rgb(39, 151, 19);
     width: 30vw;
-    height: 10vw;
+    height: 7vw;
     color: white;
     box-shadow: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    text-align: center;
 }
 .condition{
     font-size: 11px;

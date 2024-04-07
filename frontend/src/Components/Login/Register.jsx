@@ -53,7 +53,7 @@ const Register = (props) => {
             <button type="submit">Register</button>
 
             <div className="login">
-                <p>Already have an account? <a href="#" onClick={() => props.onFormSwitch('Login')}>Login</a></p>
+                <p>Already have an account? <a href="/" onClick={() => props.onFormSwitch('Login')}>Login</a></p>
             </div>
         </form>
     </div>

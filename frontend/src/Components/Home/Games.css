@@ -5,7 +5,7 @@
     box-shadow: 0rem 0rem 1rem rgb(0,0,0.1);
     margin: 0.5rem; */
     width: 90vw;
-    height:77vw;
+    height:80vw;
     border-radius: 5px;
     /* box-shadow: 0rem 0rem 1rem rgb(0,0,0.1); */
     /* margin: 2rem; */
@@ -20,6 +20,7 @@
 .first{
     display: grid;
     grid-template-columns: 6fr 1fr;
+    margin-bottom: 0px ;
 }
 .game_box h4{
     /* font-size: 0.9rem;
@@ -28,7 +29,7 @@
 
     text-align: left;
     font-size: 0.9rem;
-    padding: 0.4rem;
+    padding: 0.2rem;
     font-size: medium;
 }
 .gamelocation{
@@ -37,22 +38,27 @@
     display: flex;
     margin: 0.2rem;
     font-size: 0.75rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
  
 }
 .requirement{
     font-size: 0.75rem;
-    margin: 0.2rem;
+    margin: 0.4rem;
     display: flex;
 }
 
 .requirement > p{
     font-size: 15px;
     margin-left: 0.2rem;
+    margin-bottom: 0px ;
 }
 .date{
     display: flex;
     font-size: 0.75rem;
     margin-left: 0.2rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .join_button{
     width: 85vw;
